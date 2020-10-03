@@ -1,6 +1,6 @@
 FROM r-base:3.6.2
 
-LABEL maintainer="Jeff Du <jeff.g.du@gmail.com>"
+LABEL maintainer="Jeff G. Du <jeff.g.du@gmail.com>"
 
 ## dependencies OS## 
 RUN apt-get update && apt-get install -y --no-install-recommends \
